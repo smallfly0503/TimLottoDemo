@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TT1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="獎號"
+            android:textColor="@color/colorRed"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/TT2"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="特別號"
+            android:textColor="@color/colorLime"
+            android:textSize="11pt" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TV1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/colorRed"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/TV2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/colorRed"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/TV3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/colorRed"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/TV4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/colorRed"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/TV5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/colorRed"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/TV6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/colorRed"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/TV7"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="*"
+            android:textSize="12pt" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="12pt" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TT3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="你的號碼"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15pt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/MyNum1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorBlue"
+                android:textSize="12pt" />
+
+            <TextView
+                android:id="@+id/MyNum2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorBlue"
+                android:textSize="12pt" />
+
+            <TextView
+                android:id="@+id/MyNum3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorBlue"
+                android:textSize="12pt" />
+
+            <TextView
+                android:id="@+id/MyNum4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorBlue"
+                android:textSize="12pt" />
+
+            <TextView
+                android:id="@+id/MyNum5"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorBlue"
+                android:textSize="12pt" />
+
+            <TextView
+                android:id="@+id/MyNum6"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/colorBlue"
+                android:textSize="12pt" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BTN1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="電腦選號"
+            android:textSize="18pt" />
+
+        <Button
+            android:id="@+id/BTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="開獎"
+            android:textSize="18pt" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
